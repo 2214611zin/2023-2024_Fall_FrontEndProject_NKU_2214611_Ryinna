@@ -1,0 +1,85 @@
+.container h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px; /* 可以根据需要调整标题与导航栏之间的距离 */
+    color: rgb(252, 253, 253);
+    font-weight:bold;
+    text-shadow: 2px 2px 4px rgba(18, 54, 146, 0.5);
+}
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    color:#c6c7bffc;
+    padding: 0;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+ 
+body {
+    background-color: rgba(12, 52, 85, 0.939);
+   
+    margin: 0;
+    padding: 0;
+    font-family: "等线", sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ebeddcfc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    height: 80px; /* 调整导航栏的高度 */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center; /* 实现垂直居中 */
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px; /* 修改字体大小 */
+    color: black; /* 更改为黑色 */
+    margin: 0 10px; /* 调整文字之间的间距 */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;  
+    border: 1px solid rgb(95, 116, 133);
+    border-radius: 5px;
+    margin-bottom: 30px !important; /* 调整文字段落与图片之间的距离 */
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px; /* 可选：添加圆角 */
+    box-shadow: 2px 2px 4px rgb(9, 22, 48); /* 添加阴影效果 */
+}
+
+.grid-item p {
+    margin-bottom: 10px; /* 根据需要调整距离 */
+}
+

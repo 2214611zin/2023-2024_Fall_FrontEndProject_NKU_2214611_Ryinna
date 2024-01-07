@@ -1,0 +1,63 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* 设置背景图片并设置透明度 */
+    background-image: url('/images/首页/首页背景.jpeg');
+    background-color: rgba(255, 255, 255, 0.3); /* 这里的最后一个数字表示透明度，范围是 0（完全透明）到 1（完全不透明）之间 */
+    background-size: cover;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* 添加其他容器样式 */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(238, 239, 238);
+    text-shadow: 2px 2px 4px rgba(6, 31, 123, 1); /* 添加阴影效果 */
+    /* 添加其他欢迎文字的样式 */
+}
+
+nav {
+    text-align: center;
+    margin-top: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* 让导航框等距分布 */
+}
+
+nav ul li {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background-color: rgba(18, 72, 122, 0.671); /* 设定带透明度的深色背景 */
+    margin-right: 20px;
+    border-radius: 5px; /* 圆角 */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* 调整阴影深度 */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* 设置文字颜色为白色 */
+    display: block;
+    text-align: center;
+    padding-top: 40px; /* 调整文字位置 */
+    font-size: 20px;
+    font-weight: bold;
+}
+
